@@ -1,4 +1,6 @@
 ﻿#include<iostream>
+#include"BranchTest.h"
+
 
 void testPrintf()
 {
@@ -10,6 +12,8 @@ int main()
 	std::cout << "Hello World" << std::endl;
 
 	testPrintf();
+
+	BranchPrintf();
 
 	std::cin.get();
 }
