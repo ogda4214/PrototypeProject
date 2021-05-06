@@ -2,7 +2,7 @@
 
 void testPrintf()
 {
-
+	std::cout << "Test Infomation" << std::endl;
 }
 
 int main()
